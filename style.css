@@ -102,10 +102,11 @@ body {
 }
 
 .donate-button button {
+    width: 100%;
+    margin-top: 0rem;
     border: none;
-    height: 25px;
     background-color: #b38a19;
-    padding: 0.4rem 1rem;
+    padding: 0.62rem;
     border-radius: 5px;
     cursor: pointer;
 }
@@ -117,6 +118,7 @@ body {
 .donate-button button a {
     text-decoration: none;
     font-weight: 800;
+    font-size: 0.93rem;
     color: #000000c0;
 }
 
