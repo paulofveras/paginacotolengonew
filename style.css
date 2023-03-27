@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;400&display=swap');
 
 * {
     padding: 0;
@@ -14,8 +15,14 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #e5cf97;
+    background-color: #FBAB7E;
+    background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
     min-height: 100%;
+}
+
+a {
+    color: #000000c0;
+    text-decoration: none;
 }
 
 .container {
@@ -40,6 +47,7 @@ body {
 }
 
 .header-title h1 {
+      font-family: 'Oswald', sans-serif;
     font-size: 2.1rem;
     font-weight: 600;
     color: #000000c0;
@@ -240,14 +248,14 @@ body {
     color: #000000c0;
 }
 
-@media only screen and (max-width: 950px){
+@media only screen and (max-width: 768px){
     .container{
         width: 90%;
         height: 95vh;
     }
 }
 
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 768px){
 
     .container {
         display: flex;
@@ -259,6 +267,8 @@ body {
         text-align: center;
         font-size: 1.8rem;
     }
+
+    .form-header h1::after
 
     .form-image h6 {
         text-align: center;
