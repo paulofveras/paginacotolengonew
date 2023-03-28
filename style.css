@@ -46,7 +46,7 @@ a {
 }
 
 .form-image img {
-    width: 30rem;
+    width: 45rem;
 }
 
 .header-title h1 {
@@ -97,7 +97,6 @@ a {
     height: 100%;
     display: flex;
     justify-content: center;
-    align-items: center;
     flex-direction: column;
     background-color: rgba(255,249,220,1);
     padding: 1rem;
@@ -184,13 +183,13 @@ a {
 
 .input-box label,
 .disponibilidade-title h6 {
-    font-size: 0.8rem;
+    font-size: 1.2rem;
     font-weight: 600;
     color: #000000c0;
 }
 
 .atuacao-title h6 {
-    font-size: 0.8rem;
+    font-size: 1rem;
     font-weight: 600;
     color: #000000c0;
 }
@@ -203,10 +202,10 @@ a {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-top: 0.4rem;
     padding: 0 0.5rem;
-    font-size: 0.75rem;
+    font-size: 0.9rem;
     display: inline-block;
     column-count: 2;
 }
@@ -216,7 +215,7 @@ a {
 }
 
 .disponibilidade-title h6 {
-    font-size: 0.8rem;
+    font-size: 1rem;
     font-weight: 600;
     color: #000000c0;
     margin-top: 0.35rem;
@@ -229,11 +228,11 @@ a {
     justify-content: space-between;
     margin-top: 0.4rem;
     padding: 0 0.5rem;
-    font-size: 0.68rem;
+    font-size: 0.8rem;
 }
 
 .input-group2 h6 {
-    font-size: 0.8rem;
+    font-size: 1rem;
     font-weight: 600;
     color: #000000c0;
     margin-top: 0.35rem;
@@ -275,54 +274,4 @@ a {
     font-weight: 500;
     font-size: 20px;
     color: #000000c0;
-}
-
-@media only screen and (max-width: 768px){
-    .container{
-        width: 90%;
-        height: 95vh;
-    }
-}
-
-@media only screen and (max-width: 768px){
-
-    .container {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .header-title > h1{
-        text-align: center;
-        font-size: 1.8rem;
-    }
-
-    .form-header h1::after
-
-    .form-image h6 {
-        text-align: center;
-        font-size: 0.9rem;
-    }
-
-    .form-image{
-        width: 100%;
-        height: auto;
-    }
-
-    .form{
-        width: 100%;
-        height: auto;
-    }
-
-    .header-title{
-        width: 50vh;
-    }
-
-    .checkbox-input{
-        width: 50%;
-    }
-
-    .card-form2{
-        width: 50%;
-    }
 }
