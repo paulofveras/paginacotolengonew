@@ -18,11 +18,13 @@ body {
     background-color: #FBAB7E;
     background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
     min-height: 100%;
+    font-size: 100%;
 }
 
 a {
     color: #000000c0;
     text-decoration: none;
+    font-family: 'Inter', sans-serif;
 }
 
 .container {
@@ -38,27 +40,28 @@ a {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: #b38a19;
+    background-color: #FBAB7E;
+    background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
     padding: 1rem;
 }
 
 .form-image img {
-    width: 28rem;
+    width: 30rem;
 }
 
 .header-title h1 {
-      font-family: 'Oswald', sans-serif;
-    font-size: 2.1rem;
-    font-weight: 600;
+    font-family: 'Inter', sans-serif;
+    font-size: 45px;
+    font-weight: 400;
     color: #000000c0;
 }
 
 .header-title h1::after {
     content: '';
     display: block;
-    width: 33rem;
+    width: 44rem;
     height: 0.3rem;
-    background-color: #e5cf97;
+    background-color: #b38a19;
     margin: 0 auto;
     position: absolute;
     border-radius: 10px;
@@ -72,19 +75,21 @@ a {
 }
 
 .socialmedia img {
-    width: 3.5rem;
+    width: 4rem;
 }
 
 .socialmedia-title h6 {
-    font-size: 0.8rem;
+    font-size: 15px;
     font-weight: 600;
     color: #000000c0;
+    font-family: 'Inter', sans-serif;
 }
 
 .socialmedia-subtitle h6 {
-    font-size: 0.8rem;
+    font-size: 14px;
     font-weight: 600;
     color: #000000c0;
+    font-family: 'Inter', sans-serif;
 }
 
 .form {
@@ -104,9 +109,16 @@ a {
     justify-content: space-between;
 }
 
+.form-header h1 {
+    font-family: 'Inter', sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+}
+
 .donate-button {
     display: flex;
     align-items: center;
+    font-family: 'Inter', sans-serif;
 }
 
 .donate-button button {
@@ -125,7 +137,7 @@ a {
 
 .donate-button button a {
     text-decoration: none;
-    font-weight: 800;
+    font-weight: 500;
     font-size: 0.93rem;
     color: #000000c0;
 }
@@ -227,6 +239,23 @@ a {
     margin-top: 0.35rem;
 }
 
+.input-group2 input {
+    width:100%;
+    resize: vertical;
+    padding:15px;
+    border-radius:15px;
+    border:0;
+    box-shadow:4px 4px 10px rgba(0,0,0,0.06);
+    height:100px;
+}
+
+.input-group2 input::placeholder{
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    font-size: 14px;
+}
+
 .send-button button {
     width: 100%;
     margin-top: 0rem;
@@ -243,8 +272,8 @@ a {
 
 .send-button button a {
     text-decoration: none;
-    font-weight: 800;
-    font-size: 0.93rem;
+    font-weight: 500;
+    font-size: 20px;
     color: #000000c0;
 }
 

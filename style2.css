@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;400&display=swap');
 
 * {
@@ -5,6 +6,7 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
+    font-family: 'Inter', sans-serif;
 }
 
 body {
@@ -32,15 +34,15 @@ body {
 }
 
 .cabecalho-menu-item {
-    font-family: 'Oswald', sans-serif;
-    color: #fff2e7;
+    font-family: 'Inter', sans-serif;
+    color: #000000c0;
     font-weight: 400;
-    font-size: 23px;
+    font-size: 20px;
 }
 
 .conteudo {
     margin-bottom: 48px;
-    border-top: 0.4px solid #fff2e7;
+    border-top: 0.4px solid #000000c0;
 }
 
 .conteudo-principal {
@@ -57,17 +59,17 @@ body {
 }
 
 .conteudo-principal-escrito-titulo {
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-weight: 400;
-    font-size: 80px;
-    color: #fff2e7;
+    font-size: 70px;
+    color: #000000c0;
 }
 
 .conteudo-principal-escrito-subtitulo {
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-weight: 400;
-    font-size: 24px;
-    color: #fff2e7;
+    font-size: 20px;
+    color: #000000c0;
 }
 
 .conteudo-principal-escrito-botao {
@@ -77,9 +79,9 @@ body {
     border: none;
     box-shadow: 4px 5px 4px rgba(0,0,0,0.25);
     border-radius: 20px;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 20px;
     color: #2f2325;
 }
 
@@ -89,7 +91,7 @@ body {
 }
 
 .conteudo-principal-escrito-botao:hover {
-    background-color: crimson;
+    background-color: #0000001c;
 }
 
 .conteudo-principal-imagem {
@@ -105,29 +107,44 @@ body {
 }
 
 .conteudo-secundario-titulo {
-    border-top: 0.4px solid #fff2e7;
+    border-top: 0.4px solid #000000c0;
     padding-top: 48px;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-weight: 400;
     font-size: 24px;
-    color: #fff2ef;
+    color: #000000c0;
     margin-bottom: 16px;
 }
 
 .conteudo-secundario-paragrafo {
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-weight: 400;
     font-size: 18px;
-    color: #fff2ef;
+    color: #000000c0;
 }
 
 .rodape {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
     padding: 32px;
-    border-top: 0.4px solid #fff2e7;
+    border-top: 0.4px solid #000000c0;
+}
+
+.rodape-texto h3{
+    font-weight: 400;
+    font-size: 30px;
+    color: #000000c0;
+    margin-bottom: 10px;
+}
+
+.rodape-texto h4 {
+    font-weight: 400;
+    font-size: 20px;
+    color: #000000c0;
 }
 
 .rodape-imagem {
-    height: 250px;
-    display: block;
-    margin: 0 auto;
+    height: 200px;
 }
